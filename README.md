@@ -2,7 +2,7 @@
 
 ### 5 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
 
-![Image of 5 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.jpg)
+![Image of 5 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
 #### Power Supply 
 
