@@ -16,6 +16,8 @@
 
  * 5x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
 
+![Image 140 MH/s](https://github.com/fogonthedowns/5-gpu-ethereum-mining-rig/blob/master/images/140%20Mh:s.png)
+
 #### RAM
 
  * RAM (System Memory) –  4 GB RAM – You don’t need a lot of system memory to mine ethereum effectively.
