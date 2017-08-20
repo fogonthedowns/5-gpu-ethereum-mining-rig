@@ -175,16 +175,17 @@ cmake --build .
 sudo make install
 ```
 
-At this point you could start mining. If you decide to proxy through stratum use the information below as a reference for edits you will make to `eth-proxy.conf`:
+At this point you could start mining. This is the command to do so. Notice You must fill in your wallet address and your worker name. I've decided to use Dwarfpool because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. 
 
 ```
-/bin/ethminer -G -F http://eth-us2.dwarfpool.com/0x00c02245d47e1ee134b67c8a4e035c0a063fce2d/github_worker
+/bin/ethminer -G -F http://eth-us2.dwarfpool.com/[YOUR_WALLET_ADDRESS]/[YOUR_WORKER]
 ```
 
+If you decide to proxy through stratum use the information below as a reference for edits you will make to `eth-proxy.conf`:
 
 ### Eth-Proxy
 
-Stratum Proxy v0.0.5. Additional 10%~20% increase of earning compared to standard getwork and failover option
+Stratum Proxy v0.0.5 offers an additional 10-20% increase of earning compared to standard getwork and failover option
 
 ```
    Pool A (e.g. dwarfpool) <---+                         +-------------+ NVIDIA 1070 0
