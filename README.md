@@ -175,7 +175,7 @@ cmake --build .
 sudo make install
 ```
 
-At this point you could start mining. This is the command to do so. Notice You must fill in your wallet address and your worker name. I've decided to use [Dwarfpool](https://dwarfpool.com/eth) because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. 
+At this point you could start mining. This is the command to do so. Notice you must fill in your wallet address and your worker name. I've decided to use [Dwarfpool](https://dwarfpool.com/eth) because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. If you need a wallet you can download [mist](https://github.com/ethereum/mist/releases) to make one.
 
 ```
 /bin/ethminer -G -F http://eth-us2.dwarfpool.com/[YOUR_WALLET_ADDRESS]/[YOUR_WORKER]
