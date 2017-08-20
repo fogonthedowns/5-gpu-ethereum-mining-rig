@@ -189,15 +189,15 @@ If you decide to proxy through stratum use the information above as a reference 
 Stratum Proxy v0.0.5 offers an additional 10-20% increase of earning compared to standard getwork and failover option
 
 ```
-   Pool A (e.g. dwarfpool) <---+                         +-------------+ NVIDIA 1070 0
+   Pool A (e.g. dwarfpool) <---+                         +------ (ethminer process) -------+ NVIDIA 1070 0
  (Active)                      |                         |
-                               |                         +-------------+ NVIDIA 1070 1
+                               |                         +------ (ethminer process) -------+ NVIDIA 1070 1
                                |                         |
-  Pool B  <--------------------+---- StratumProxy  <-----+-------------+ NVIDIA 1070 2
+  Pool B  <--------------------+---- StratumProxy  <-----+------ (ethminer process) -------+ NVIDIA 1070 2
 (Dwarfpool FailOver)                                     |
-                                                         +-------------+ NVIDIA 1070 3
+                                                         +------ (ethminer process) -------+ NVIDIA 1070 3
                                                          |
-                                                         +-------------+ NVIDIA 1070 4
+                                                         +------ (ethminer process) -------+ NVIDIA 1070 4
 ```
 
 
