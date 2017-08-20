@@ -165,6 +165,8 @@ or
 watch -n0 nvidia-smi
 ```
 
+### Ethminer
+
 Download [Ethminer](https://github.com/ethereum-mining/ethminer#build)
 ```
 mkdir build; cd build
@@ -173,14 +175,14 @@ cmake --build .
 sudo make install
 ```
 
-In my case the build is in cpp-thereum-master directory Run:
+At this point you could start mining. If you decide to proxy through stratum use the information below as a reference for edits you will make to `eth-proxy.conf`:
 
 ```
 /bin/ethminer -G -F http://eth-us2.dwarfpool.com/0x00c02245d47e1ee134b67c8a4e035c0a063fce2d/github_worker
 ```
 
 
-# Eth-Proxy
+### Eth-Proxy
 
 Stratum Proxy v0.0.5. Additional 10%~20% increase of earning compared to standard getwork and failover option
 
