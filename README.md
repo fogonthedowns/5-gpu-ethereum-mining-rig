@@ -32,7 +32,7 @@
 
 #### Rig Case
 
- * 1x Custom Mining Case –  I’d recommend an Open Air 5 GPU Mining Case.I’ve built several of these 5 GPU rigs for family and friends using this particular mining case works quite well for airflow and ease of building.
+ * 1x Custom Mining Case –  [It does the job but its janky](https://www.amazon.com/GPU-Crypto-Currency-Mining-Frame/dp/B0737R3VN1/ref=sr_1_2?ie=UTF8&qid=1503209654&sr=8-2&keywords=open+air+rig). But shop around.
 
 #### On/Off Switch
 
