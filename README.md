@@ -212,7 +212,6 @@ In my case the build is in cpp-thereum-master directory Run:
 /bin/ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/rig1
 ```
 
-Replacing your wallet id, and worker name with yours. But feel free to tip me in order to test results. 
 
 ### Troubleshooting
 
