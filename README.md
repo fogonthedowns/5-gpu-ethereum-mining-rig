@@ -57,7 +57,7 @@
 8. Plug in all power supply connections.
 9. Connect mouse, monitor and keyboard and an internet connection (I use a USB WiFi adapter)
 10. Check all connections once more
-11. Fire it up! Install Ubuntu 17.04
+11. Fire it up! Install Ubuntu 16.04
 12. Make sure fans are fully functional. Start the mining software, tweak settings for maximum hash rates and let it run!
 Motherboard, Windows and Mining Software Configuration
 1. Update the motherboard to the latest BIOS using a USB thumb drive. You can find the latest BIOS for the Z170 SLI Plus motherboard here.
@@ -68,7 +68,7 @@ Motherboard, Windows and Mining Software Configuration
 
 ### Install OS
 
- * [Download Ubuntu 17.04](https://help.ubuntu.com/community/InstallCDCustomization)
+ * [Download Ubuntu 16.04](https://help.ubuntu.com/community/InstallCDCustomization)
  * If you are on a mac, create bootable USB with these [instructions](http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/)
  * boot your system type `delete` rappidly to enter BIOS mode. Toggle boot order to boot from USB. Save and restart.
 
