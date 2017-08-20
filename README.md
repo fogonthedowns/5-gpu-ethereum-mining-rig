@@ -14,13 +14,13 @@
 ￼
 #### GPUs 
 
- * 5x Graphics Cards (GPUs) – [Nvidia GTX 1070](https://jet.com/product/ASUS-ROG-Strix-GeForce-GTX-1070-8GB-Gaming-Card/8ce8d8f42a9446eba44c80b4120395e8) – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
+ * 5x Graphics Cards (GPUs) – [Nvidia GTX 1070](https://jet.com/product/ASUS-GeForce-GTX-1070-8GB-Turbo-Edition-4K-and-VR-Ready-Dual-HDMI-20-DP-14-Graph/a7c14afa10af44ad86b1eb0b68f0263a) – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
 
 ![Image 140 MH/s](https://github.com/fogonthedowns/5-gpu-ethereum-mining-rig/blob/master/images/140%20Mh:s.png)
 
 #### RAM
 
- * RAM (System Memory) –  4 GB RAM – You don’t need a lot of system memory to mine ethereum effectively.
+ * [RAM (System Memory)](https://jet.com/product/Crucial-Technology-4GB-Single-DDR4-2133-MTs-PC4-17000-CL15-SR-x8-Unbuffered-DIMM/87250d73c9f842a1b19966df54407776) –  4 GB RAM – You don’t need a lot of system memory to mine ethereum effectively.
 
 #### GPU cables
 
@@ -28,11 +28,11 @@
 
 #### Hard Disk
 
- * 1x Hard Drive (SSD)  –  Solid State Drive  for installing operating system and your mining software.
+ * [1x Hard Drive (SSD)](https://www.amazon.com/gp/product/B01K1W7JNW/ref=oh_aui_detailpage_o09_s02?ie=UTF8&psc=1)  –  Solid State Drive for installing operating system and your mining software.
 
 #### Rig Case
 
- * 1x Custom Mining Case –  [It does the job but its janky](https://www.amazon.com/GPU-Crypto-Currency-Mining-Frame/dp/B0737R3VN1/ref=sr_1_2?ie=UTF8&qid=1503209654&sr=8-2&keywords=open+air+rig). But shop around.
+ * 1x Custom Mining Case –  [It does the job (but its janky)](https://www.amazon.com/GPU-Crypto-Currency-Mining-Frame/dp/B0737R3VN1/ref=sr_1_2?ie=UTF8&qid=1503209654&sr=8-2&keywords=open+air+rig). Shop around for sure.
 
 #### On/Off Switch
 
