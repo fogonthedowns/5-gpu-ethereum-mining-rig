@@ -175,13 +175,14 @@ cmake --build .
 sudo make install
 ```
 
-At this point you could start mining. This is the command to do so. Notice You must fill in your wallet address and your worker name. I've decided to use Dwarfpool because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. 
+At this point you could start mining. This is the command to do so. Notice You must fill in your wallet address and your worker name. I've decided to use [Dwarfpool](https://dwarfpool.com/eth) because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. 
 
 ```
 /bin/ethminer -G -F http://eth-us2.dwarfpool.com/[YOUR_WALLET_ADDRESS]/[YOUR_WORKER]
 ```
 
-If you decide to proxy through stratum use the information below as a reference for edits you will make to `eth-proxy.conf`:
+If you decide to proxy through stratum use the information above as a reference for edits you will make to `eth-proxy.conf` in the eth-proxy instructions.
+
 
 ### Eth-Proxy
 
