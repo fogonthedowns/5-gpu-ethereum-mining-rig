@@ -14,7 +14,7 @@
 ￼
 #### GPUs 
 
- * 5x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
+ * 5x Graphics Cards (GPUs) – [Nvidia GTX 1070](https://jet.com/product/ASUS-ROG-Strix-GeForce-GTX-1070-8GB-Gaming-Card/8ce8d8f42a9446eba44c80b4120395e8) – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
 
 ![Image 140 MH/s](https://github.com/fogonthedowns/5-gpu-ethereum-mining-rig/blob/master/images/140%20Mh:s.png)
 
