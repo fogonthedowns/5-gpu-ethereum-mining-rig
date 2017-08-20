@@ -178,7 +178,7 @@ sudo make install
 At this point you could start mining. This is the command to do so. Notice you must fill in your wallet address and your worker name. I've decided to use [Dwarfpool](https://dwarfpool.com/eth) because I like the name and it works for me. However there are many [other](https://www.buybitcoinworldwide.com/ethereum/mining-pools/) mining pools. If you need a wallet you can download [mist](https://github.com/ethereum/mist/releases) to make one.
 
 ```
-/bin/ethminer -G -F http://eth-us2.dwarfpool.com/[YOUR_WALLET_ADDRESS]/[YOUR_WORKER]
+/bin/ethminer -U -F http://eth-us2.dwarfpool.com/[YOUR_WALLET_ADDRESS]/[YOUR_WORKER]
 ```
 
 If you decide to proxy through stratum use the information above as a reference for edits you will make to `eth-proxy.conf` in the eth-proxy instructions.
@@ -209,7 +209,7 @@ Stratum Proxy v0.0.5 offers an additional 10-20% increase of earning compared to
 In my case the build is in cpp-thereum-master directory Run:
 
 ```
-/bin/ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/rig1
+/bin/ethminer --farm-recheck 200 -U -F http://127.0.0.1:8080/rig1
 ```
 
 
