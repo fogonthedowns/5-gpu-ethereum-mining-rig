@@ -176,7 +176,36 @@ sudo make install
 In my case the build is in cpp-thereum-master directory Run:
 
 ```
-~/Downloads/cpp-ethereum-master/build/ethminer/ethminer -G -F http://eth-us2.dwarfpool.com/0x00c02245d47e1ee134b67c8a4e035c0a063fce2d/github_worker
+/bin/ethminer -G -F http://eth-us2.dwarfpool.com/0x00c02245d47e1ee134b67c8a4e035c0a063fce2d/github_worker
+```
+
+
+# Eth-Proxy
+
+Stratum Proxy v0.0.5. Additional 10%~20% increase of earning compared to standard getwork and failover option
+
+```
+   Pool A (e.g. dwarfpool) <---+                         +-------------+ NVIDIA 1070 0
+ (Active)                      |                         |
+                               |                         +-------------+ NVIDIA 1070 1
+                               |                         |
+  Pool B  <--------------------+---- StratumProxy  <-----+-------------+ NVIDIA 1070 2
+(Dwarfpool FailOver)                                     |
+                                                         +-------------+ NVIDIA 1070 3
+                                                         |
+                                                         +-------------+ NVIDIA 1070 4
+```
+
+
+ * Download [eth-proxy](https://github.com/Atrides/eth-proxy)
+ * `apt-get install python-twisted`
+ * Edit `eth-proxy.conf` with your wallet id, and [dwarfpool](https://dwarfpool.com/eth/) uris
+ * Start Ethproxy: `python ./eth-proxy.py`
+
+In my case the build is in cpp-thereum-master directory Run:
+
+```
+/bin/ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/rig1
 ```
 
 Replacing your wallet id, and worker name with yours. But feel free to tip me in order to test results. 
